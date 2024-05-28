@@ -10,7 +10,7 @@ public class App {
 //        EmailNotifier en = new EmailNotifier(new BasicNotifier());
 //        en.send();
 
-        Notifier smsNotifier = new SmsNotifier(new BasicNotifier());
+        Notifier smsNotifier = new SmsNotifier(new EmailNotifier(new BasicNotifier()));
         smsNotifier.send();
     }
 }
