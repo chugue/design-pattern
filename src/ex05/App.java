@@ -1,7 +1,7 @@
-package ex04;
+package ex05;
 
-import ex04.teacher.HtmlTeacher;
-import ex04.teacher.Teacher;
+import ex05.teacher.HtmlTeacher;
+import ex05.teacher.Teacher;
 
 public class App {
 
