@@ -7,6 +7,7 @@ public class EmailNotifier implements Notifier{
         this.notifier = notifier;
     }
 
+    public EmailNotifier() {}
 
     // 재정의
     public void send(){
