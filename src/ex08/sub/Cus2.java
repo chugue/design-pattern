@@ -1,4 +1,4 @@
-package ex08.push.sub;
+package ex08.sub;
 
 public class Cus2 implements Customer {
     @Override

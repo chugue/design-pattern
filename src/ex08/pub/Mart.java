@@ -1,6 +1,6 @@
-package ex08.push.pub;
+package ex08.pub;
 
-import ex08.push.sub.Customer;
+import ex08.sub.Customer;
 
 public interface Mart {
     // 1. 등록 (구독자 등록)

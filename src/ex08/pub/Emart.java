@@ -1,11 +1,11 @@
-package ex08.push.pub;
+package ex08.pub;
 
-import ex08.push.sub.Customer;
+import ex08.sub.Customer;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class LotteMart implements Mart {
+public class Emart implements Mart{
 
     // 구독자 명단
     private List<Customer> customerList = new ArrayList<>();

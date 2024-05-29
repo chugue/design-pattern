@@ -1,11 +1,10 @@
-package ex08.push;
+package ex08;
 
-import ex08.push.pub.Emart;
-import ex08.push.pub.LotteMart;
-import ex08.push.pub.Mart;
-import ex08.push.sub.Cus1;
-import ex08.push.sub.Cus2;
-
+import ex08.pub.LotteMart;
+import ex08.pub.Mart;
+import ex08.pub.Emart;
+import ex08.sub.Cus1;
+import ex08.sub.Cus2;
 
 
 public class App {
