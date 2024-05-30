@@ -1,5 +1,9 @@
 package delegate_pattern;
 
+import delegate_pattern.printer.InkjetPrinter;
+import delegate_pattern.printer.LaserPrinter;
+import delegate_pattern.printer.PrinterManager;
+
 public class App {
     public static void main(String[] args) {
         // InkjetPrinter를 사용하는 PrinterManager

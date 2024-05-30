@@ -1,4 +1,4 @@
-package delegate_pattern;
+package delegate_pattern.printer;
 
 public class LaserPrinter implements Printer{
     @Override
