@@ -11,7 +11,7 @@ public class PrinterManager implements Printer {
     }
 
     // setter 생성
-    public void setDelegate(Printer delegate) {
+    public void setDelegate(PrinterType type) {
         this.delegate = delegate;
     }
 
